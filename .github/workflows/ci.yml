@@ -19,9 +19,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: next-app
         run: npm install
 
       - name: Build Next.js app
-        working-directory: next-app
         run: npm run build
